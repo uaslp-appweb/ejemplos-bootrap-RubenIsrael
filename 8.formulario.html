@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Formularios</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ejemplo de Formulario</h1>
+        <form>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label> Nombre </label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label> Contraseña </label>
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <input type="file" class="form-control-file">
+            </div>
+
+            <fieldset>
+                <legend> Ejemplo de radio</legend>
+                <div class="form-group form-check">
+                    <input type="radio" class="form-check-input" name="radio">
+                    <label class="form-check-label"> Radio 1</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="radio" class="form-check-input" name="radio">
+                    <label class="form-check-label"> Radio 2</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="radio" class="form-check-input" name="radio">
+                    <label class="form-check-label"> Radio 3</label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label>Combo </label>
+                <select class="form-control">
+                    <option>Uno</option>
+                    <option>Dos</option>
+                    <option>Tres</option>
+                </select>
+            </div>
+            
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label"> Recordarme </label>
+            </div>
+            <input type="submit" class="btn btn-outline-dark btn-block btn-lg">
+        </form>
+    </div>
+</body>
+</html>
